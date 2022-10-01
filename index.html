@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tetris</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- these 5 javascript files essentially make up the game -->
+  <script src="grid.js"></script>  <!-- these are the functions regarding board creation and management -->
+  <script src="main.js"></script> <!-- this is the area where all of the main function executions take place-->
+  <script src="piece.js"></script> <!-- this is the constructor for the tetris pieces and is referenced for drawing, collision events, rotations, game over event. etc.-->
+  <script src="player.js"></script> <!-- these are the functions regarding player input handling -->
+  <script src="vec2.js"></script> <!-- this is a constructor -->
+</head>
+
+<body>
+  <p>
+    Score: <span id="score">0</span><br />
+    Level: <span id="level">1</span>
+  </p>
+  <canvas id="game" width="500" height="800"></canvas>
+</body>
+</html>

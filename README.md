@@ -1,2 +1,2 @@
-# Tetris-2022
-its tetris
+# tetris-js
+A tetris game in JavaScript.
